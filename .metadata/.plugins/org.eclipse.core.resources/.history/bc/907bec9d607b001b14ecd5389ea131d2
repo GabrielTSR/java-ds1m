@@ -1,0 +1,15 @@
+package Fórmulas;
+
+public class GrausCelsiusParaFahrenheit {
+	
+public static void main(String[]args) {
+		
+		float Celsius = 50f;
+		float Fahrenheit = (9 * Celsius + 160) / 5;
+		float Ca = (Fahrenheit - 32) * 5 / 9;
+		
+		System.out.println(Fahrenheit +"°F" + " = " + Celsius + "°C" + Ca);
+		
+	}
+
+}
