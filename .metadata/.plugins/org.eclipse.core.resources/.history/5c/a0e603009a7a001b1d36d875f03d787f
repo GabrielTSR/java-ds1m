@@ -1,0 +1,16 @@
+package circunferencia;
+
+public class Circulo {
+	
+public static void main(String[] args) {
+		
+		float PI = 3.14f;
+		float r = 3f;
+		float A = PI * ( r * r );
+		
+		System.out.print(A);
+		System.out.print(" é a área");
+		
+        }
+
+}
